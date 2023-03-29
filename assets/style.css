@@ -34,7 +34,7 @@ main {
     background-color: rgb(141, 188, 230);
 }
 
-.aboutme {
+.aboutme, .work, .contactme {
     height: 200px;
     padding: 4% 4% 3% 3%;
     font-size: large;
@@ -45,7 +45,7 @@ main {
     padding-right: 4px;
 }
 
-.aboutme h2 {
+h2 {
     font-size: larger;
 }
 
