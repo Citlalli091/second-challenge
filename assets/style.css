@@ -5,21 +5,16 @@
 
 
 .navbar{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
     height: 125px;
     background-color: cornflowerblue;
 }
 
-.nav-ul{
-    /* display: flex; */
-    flex-wrap: wrap;
-    justify-content: end;
-    /* margin: 1%; */
-}
-
 .name{
-    display: block;
+    display: flex;    
     font-weight: bold;
-    position: absolute;
     align-items: flex-end;
     font-size: 500%;
     margin-top: 2%;
@@ -28,9 +23,34 @@
 .nav-btn {
     justify-content: space-between;
     align-items: end;
-    background-color: transparent;
     border: none;
+    background-color: transparent;
     border-bottom: 3px solid rgb(31, 51, 138);
     text-transform: uppercase;
-    
+}
+
+main {
+    height: 700px;
+    background-color: rgb(141, 188, 230);
+}
+
+.aboutme {
+    height: 200px;
+    padding: 4% 4% 3% 3%;
+    font-size: large;
+}
+
+.maintxt {
+    border-left: 4px solid rgb(31, 51, 138);
+    padding-right: 4px;
+}
+
+.aboutme h2 {
+    font-size: larger;
+}
+
+footer {
+    margin: 0%;
+    height: 136px;
+    background-color: cornflowerblue;
 }
