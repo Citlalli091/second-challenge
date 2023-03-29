@@ -10,3 +10,12 @@
 
 ## Acceptance Criteria
 
+
+
+### Notes
+    This assignment was done independently and used no copied code from any website or peer.
+
+
+## Links
+    Github Repo: https://github.com/Citlalli091/second-challenge
+    Deployed Website: https://citlalli091.github.io/second-challenge/
