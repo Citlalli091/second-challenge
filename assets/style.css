@@ -10,16 +10,27 @@
 }
 
 .nav-ul{
-    display: flex;
+    /* display: flex; */
     flex-wrap: wrap;
     justify-content: end;
-    margin: 1%;
+    /* margin: 1%; */
 }
 
 .name{
+    display: block;
     font-weight: bold;
     position: absolute;
     align-items: flex-end;
     font-size: 500%;
     margin-top: 2%;
+}
+
+.nav-btn {
+    justify-content: space-between;
+    align-items: end;
+    background-color: transparent;
+    border: none;
+    border-bottom: 3px solid rgb(31, 51, 138);
+    text-transform: uppercase;
+    
 }
