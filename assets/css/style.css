@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 125px;
+    background-color:  rgb(210, 145, 188);
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+nav li {
+    display: inline-block;
+    margin-right: 20px; /* add some space between links */
+}  
+.name {
+    display: flex;    
+    font-weight: bold;
+    align-items: flex-end;
+    font-size: 500%;
+    margin-top: 2%;
+}
+.nav-btn {
+    padding: 4px;
+    justify-content: space-between;
+    align-items: end;
+    border: none;
+    background-color:rgb(255, 223, 211);
+    border-radius: 3px;
+    border-bottom: 3px solid rgb(149, 125, 173);
+    color: rgb(152, 136, 136);
+    text-transform: uppercase;
+}
+.nav-btn:hover {
+    background-color: rgb(149, 125, 173);
+    border-bottom: 3px solid rgb(255, 223, 211);
+    color: rgb(255, 223, 211);
+}
+main {
+    height: auto;
+    background-color: rgb(254, 200, 216);
+}
+#aboutme {
+    height: 500px;
+    border: 15px solid rgb(210, 145, 188);
+    padding: 4% 4% 3% 3%;
+    font-size: large;
+}
+img {
+    padding: 7px;
+}
+#work {
+    height: 500px;
+    border: 15px solid rgb(210, 145, 188);
+    padding: 4% 4% 3% 3%;
+    font-size: large;
+}
+#contactme {
+    height: 500px;
+    border: 15px solid rgb(210, 145, 188);
+    padding: 4% 4% 3% 3%;
+    font-size: large;
+}
+.maintxt {
+    border-left: 6px solid rgb(124, 85, 192);
+    margin: 1%; 
+    padding: 5px;
+   
+}
+h2 {
+    font-size: larger;
+}
+footer {
+    text-align: center;
+    /* position: ; */
+    margin: 0%;
+    height: 136px;
+    background-color: rgb(210, 145, 188);
+}

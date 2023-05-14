@@ -5,51 +5,62 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/reset.css">
-    <link rel="stylesheet" href="assets/style.css">
+    <link rel="stylesheet" href="assets/css/style.css">
     <title>My-Portfolio</title>
 </head>
 <body>
    <header class="navbar">
     <p class="name">Citlalli Rojas</p>
     <ul class="nav-ul">
-        <li><a href="#aboutme">About Me</a></li>
-        <li><a href="#work">Work</a></li>
-        <li><a href="#contactme">Contact Me</a></li>
-        <li><a href="#resume">Resume</a></li>
+        <li> 
+            <!-- navbar buttons direct you to sections of the page -->
+            <a class="nav-btn" href="#aboutme">About Me</a>
+            <a class="nav-btn" href="#work">Work</a>
+            <a class="nav-btn" href="#contactme">Contact Me</a>
+            <a class="nav-btn" href="https://profile.indeed.com/p/citlallir-79fggqk">Resume</a>
+        </li>
     </ul>
    </header>
 
-   <main>
-    <section id="aboutme">
-        <div class="maintxt">
-            <h2>About Me</h2>
-            <p>My love for creating has lead me into studying programming, although I never thought it would lead me here. I excelled in art and literature, and in high school I had dreams of becoming a psychologist. I soon realized how many years of school it would take for a Masters degree and quickly gave up on that dream. <br><br> I learn best by being thrown into the flames of something new, and I tend to quickly gain my footing, so traditional school is not my go-to. A friend recommended a coding bootcamp and through some research on the biggest search engine of the internet I stumbled into the UW Full Stack Web Development online coding bootcamp. It's a struggle that I'm loving so far, thanks to my peers and instructors. I'm truly grateful to have taken this path as I head into my 20's this year(2023).</p>
-        </div>
-    </section>
-    <section id="work">
-        <div class="maintxt">
-            <h2>Work</h2> <br>
-            <h3>Mini Project</h3>
-            <p>Html/CSS</p>
-        </div>
-    </section>
-    <section id="contactme">
-        <div class="maintxt">
-            <h2>Contact Me</h2>
-            <ul>
-                <a href="mailto:rojas.lalli16@gmail.com">Email Me</a>
-                <a>Linkedin</a>
-                <a href="http://github.com/Citlalli091">Github</a>
-            </ul>
-        </div>
-    </section>
-    <section id="resume">
-        <h2><a>Resume</a></h2>
-    </section>
+    <main>
+        <section id="aboutme">
+            <div class="maintxt">
+                <h2>About Me</h2>
+                <p>My love for creating has lead me into studying programming, although I never thought it would lead me here. I excelled in art and literature, and in high school I had dreams of becoming a psychologist. I soon realized how many years of school it would take for a Masters degree and quickly gave up on that dream. <br><br> I learn best by being thrown into the flames of something new, and I tend to quickly gain my footing, so traditional school is not my go-to. A friend recommended a coding bootcamp and through some research on the biggest search engine of the internet I stumbled into the UW Full Stack Web Development online coding bootcamp. It's a struggle that I'm loving so far, thanks to my peers and instructors. I'm truly grateful to have taken this path as I head into my 20's this year(2023).</p>
+                <br><br>
+                <h3>This is me!</h3>
+                <img src="assets/img/IMG_70312.jpg" alt="picture of myself!">
+            </div>
+        </section>
+        <section id="work">
+            <div class="maintxt">
+                <h2>Work</h2> <br>
+                <!-- git repo and deployed app links to my first project -->
+                <h3><a href="https://derekchili.github.io/book-finder-group5/">Bookfinder App</a></h3><br>
+                <h4><a href="https://github.com/Derekchili/book-finder-group5">-Github</a></h4>
+                <p>-Html,CSS,JavaScript</p>
+            </div>
+        </section>
+        <section id="contactme">
+            <div class="maintxt">
+                <h2>Contact Me</h2>
+                <ul>
+                    <!-- links to my contact info -->
+                    <a href="mailto:Rojas.lalli16@gmail.com">Email Me</a>
+                    <br>
+                    <a href="#contactme">Linkedin(Coming Soon)</a>
+                    <br>
+                    <a href="http://github.com/Citlalli091">Github</a>
+                </ul>
+            </div>
+        </section>
+        <!-- <section id="resume">
+            <h2>Resume</h2>
+        </section> -->
    </main> 
 
-   <footer>
+    <footer>
     &copy; Made with 💜 and CSS
-   </footer>
+    </footer>
 </body>
 </html>
